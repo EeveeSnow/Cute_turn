@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Race 3D</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="menu" class="overlay">
+            <h1>Retro Race 3D</h1>
+            <input type="text" id="player-name" placeholder="Enter your name">
+            <button id="start-btn">Join Race</button>
+        </div>
+        <div id="hud" class="overlay" style="display: none;">
+            <div id="position">Position: <span id="position-value">-</span></div>
+            <div id="speed">Speed: <span id="speed-value">0</span> km/h</div>
+            <div id="lap">Lap: <span id="lap-value">0</span>/3</div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html> 
